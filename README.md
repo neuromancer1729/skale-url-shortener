@@ -1,5 +1,11 @@
 # SKALE URL Shortener
 
+## Try it
+
+[skale.now.sh/s?id=2](https://medium.com/ethdenver/ethdenver-2020-official-bounties-b8b41135d881) should redirect to [medium.com/ethdenver/ethdenver-2020-official-bounties-b8b41135d881](https://medium.com/ethdenver/ethdenver-2020-official-bounties-b8b41135d881)
+
+The shortened URLs expand normally in all browsers and mobile devices (even those that do not support web3)
+
 ## Setup
 
 1) Connect metamask to your SKALE node
