@@ -49,7 +49,7 @@ function checkNetwork(){
     })
     .catch((err) => {
         console.log('ERROR',err);
-        $(".metamask-network-modal").addClass("is-active");
+        //$(".metamask-network-modal").addClass("is-active");
     });
     
 }
