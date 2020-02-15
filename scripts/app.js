@@ -190,9 +190,7 @@ function batchEvents(abi, address) {
         <tr>\
           <td><p class='smaller'>{0}</p></td>\
           <td style='min-width:133px'><a class='small' target='_blank' href='{1}'><strong>{2}</strong></a></td>\
-          <td><a target='_blank' href='https://ropsten.etherscan.io/block/{3}'><code>{3}</code></a></td>\
-          <td><a target='_blank' href='https://ropsten.etherscan.io/tx/{4}'>link</a></td>\
-        </tr>".f(result.args.url,shortUrl,shorterUrl,result.blockNumber,result.transactionHash);
+        </tr>".f(result.args.url,shortUrl,shorterUrl);
         //console.log(row);
         $("#tx-table").prepend(row);
     });
